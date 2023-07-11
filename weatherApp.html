@@ -24,6 +24,7 @@
                 name="searchCity"
                 id="city_input"
                 placeholder="Search a city"
+                autocomplete="off"
               />
             </div>
             <div class="col-3">
@@ -34,7 +35,7 @@
 
         <div class="appView2">
           <h2 id="city">paris</h2>
-          <h4 id="dateTime">friday</h4>
+          <h4>Last updated: <span id="date"></span></h4>
           <h5 class="description" id="descript">clear</h5>
 
           <div class="temperature">
@@ -58,8 +59,8 @@
               <div class="col-6">
                 <div id="temp_2">
                   <ul>
-                    <li>Humidity: <span class="humidity"></span>%</li>
-                    <li>Wind: <span class="wind"></span>Km/h</li>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Wind: <span id="wind"></span>Km/h</li>
                   </ul>
                 </div>
               </div>
