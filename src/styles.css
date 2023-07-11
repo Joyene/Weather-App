@@ -54,6 +54,6 @@ body {
 li {
   list-style: none;
 }
-a {
+.weather-app a {
   text-decoration: none;
 }
